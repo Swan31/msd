@@ -41,7 +41,8 @@ def countdown():
         if div3:
             if div5:
                 print("Testing")
-            print("Software")
+            else:
+                print("Software")
         elif div5:
             print("Agile")
         else:
