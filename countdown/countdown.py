@@ -20,6 +20,7 @@ def get_user_input():
     print(f"You have successfully entered number {number}. Let's play countdown!")
     return number
 
+
 def number_divisible_by_divisor(dividend, divisor):
     """Returns true if number is divisible by divisor.
     :param dividend: number to be divided
@@ -28,6 +29,7 @@ def number_divisible_by_divisor(dividend, divisor):
     :rtype Boolean
     """
     return dividend % divisor == 0
+
 
 def countdown():
     """Function counts backwards from value provided by user to 1 and prints:
@@ -47,5 +49,6 @@ def countdown():
         else:
             print(user_number)
         user_number -= 1
+
 
 countdown()
