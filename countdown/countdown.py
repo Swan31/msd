@@ -1,5 +1,5 @@
 def get_user_input():
-    """Function which retrieves user input and verify that it is a non-zero natural number
+    """Function which retrieves user input and verifies that it is a non-zero natural number
     :returns Verified number given by user
     :rtype: Integer
     """
