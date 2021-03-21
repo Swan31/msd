@@ -42,9 +42,7 @@ Provide code from implementation.
 ### Run test
 * run test from "eshop.robot" file
 * test can be run locally (default option) or remotely
-* to run test remotely:
-   * set robot variable "REMOTE" to "True"
-   * set robot variable "REMOTE_URL" to your selenium, e.g. http://172.17.0.2:4444/wd/hub
+* to run test remotely set robot variable "REMOTE_URL" to your selenium, e.g. http://172.17.0.2:4444/wd/hub
 ### Run test with Docker
 * get and run selenium standalone with chrome image from Docker hub - https://hub.docker.com/r/selenium/standalone-chrome
 * build image from Dockerfile in project root
