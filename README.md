@@ -45,5 +45,8 @@ Provide code from implementation.
 * to run test remotely set robot variable "REMOTE_URL" to your selenium, e.g. http://172.17.0.2:4444/wd/hub
 ### Run test with Docker
 * get and run selenium standalone with chrome image from Docker hub - https://hub.docker.com/r/selenium/standalone-chrome
+    > docker run -d -p 4444:4444 -p 5900:5900 -v /dev/shm:/dev/shm selenium/standalone-chrome:4.0.0-beta-1-20210215 
 * build image from Dockerfile in project root
-* run project container with remote option and remote url set to the selenium container
+    > docker build . -t olabut/msd
+* run project container with remote url set to the selenium container
+    > docker run -d olabut/msd
