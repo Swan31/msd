@@ -6,6 +6,7 @@ Resource          ../resources/eshop.resource
 *** Test Cases ***
 Add two most expensive items to cart
     [Documentation]  Add two most expensive items to cart from ereaders category.
+    ...  NOTE: This test case will fail as price order desc does not work - a bug
     [Tags]  desc
     open browser to eshop
     eshop_sharedComponents.click ebook category button
