@@ -33,7 +33,7 @@ Provide code from implementation.
     * robotframework-seleniumlibrary 5.1.0
     * robotframework-pageobjectlibrary 1.0.2
     * selenium 3.141.0 or 4.0.0.b1
-    * Chrome with matching release of chromedriver - 88.0.4324.190
+    * Chrome with matching release of chromedriver - 91.0.4472.124
 ### Structure
 * Located in "eshop" directory
 * pageobjectes - element locators with methods to interact with them
