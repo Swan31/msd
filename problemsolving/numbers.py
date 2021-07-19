@@ -1,5 +1,5 @@
 """There two sets of numbers. The arrays have the same length. Sum of a pair of numbers, one from the fist set, the
-other from the second, must be the same as target number. Fina all occurrences. If no exact match is found,
+other from the second, must be the same as target number. Find all occurrences. If no exact match is found,
 print all the closest matches found."""
 setx = [-1, 3, 8, 2, 9, 5]
 sety = [4, 1, 2, 10, 5, 20]
